@@ -3,6 +3,11 @@ body {
     min-height: 75rem;
     padding-top: 3.5rem;
 }
+.link{
+    top: -120px;
+    position: relative;
+    z-index: 5;
+}
 .descr-top{
     background-image: url('../images/topo.jpg');
     background-repeat: no-repeat;
@@ -17,4 +22,52 @@ body {
 .servicos{
     border-radius: 0px;
     margin-bottom: 0rem !important;
+}
+.circulo{
+    width: 140px;
+    height: 140px;
+    font-size: 52px;
+    padding-top:24px;
+    color:#0095eb;
+}
+.circulo:hover{
+    background-color: #0095eb;
+    color: #fff;
+}
+.centralizar{
+    margin: 0 auto !important;
+    float: none !important;
+}
+.descr-chamada{
+    background-image:url("../images/chamada_acao.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:#fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 0rem !important;
+    border-radius: 0px;
+}
+.contato{
+    background-color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 0rem !important;
+    border-radius: 0px;
+}
+.rodape{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #090622;
+    margin-bottom: 0rem !important;
+    color:#fff;
+    border-radius: 0px;
+}
+.rodape ul li a.link-rodape{
+    color: #fff !important;
+}
+.rodape ul li a.link-rodape:hover{
+    color: #adaeaf !important;
+    text-decoration: none;
 }
